@@ -28,7 +28,7 @@ estimator = TensorFlow(
     entry_point='model.py',
     role=sagemaker_role,
     instance_count=1,
-    instance_type='ml.m5.12xlarge',
+    instance_type='ml.m5.4xlarge',
     framework_version='2.1.0',
     py_version='py3',
 )
