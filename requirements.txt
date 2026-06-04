@@ -1,5 +1,5 @@
 constructs>=10.0.0,<11.0.0
 streamlit
 aws-cdk-lib==2.183.0
-sagemaker
+sagemaker>=2.200,<3
 cdk-nag
